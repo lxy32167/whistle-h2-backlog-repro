@@ -1,0 +1,50 @@
+{
+  "node": "v22.19.0",
+  "whistle": "2.10.13",
+  "platform": "darwin",
+  "release": "27.0.0",
+  "arch": "arm64",
+  "somaxconn": 128,
+  "alpn": "h2",
+  "concurrency": 200,
+  "requests": 1000,
+  "passed": 185,
+  "failed": 815,
+  "elapsedMs": 299,
+  "originRequests": 185,
+  "failureTypes": {
+    "CLOSED_WITHOUT_HEADERS": 815
+  },
+  "firstFailures": [
+    {
+      "ok": false,
+      "status": null,
+      "rstCode": 0,
+      "error": "CLOSED_WITHOUT_HEADERS"
+    },
+    {
+      "ok": false,
+      "status": null,
+      "rstCode": 0,
+      "error": "CLOSED_WITHOUT_HEADERS"
+    },
+    {
+      "ok": false,
+      "status": null,
+      "rstCode": 0,
+      "error": "CLOSED_WITHOUT_HEADERS"
+    },
+    {
+      "ok": false,
+      "status": null,
+      "rstCode": 0,
+      "error": "CLOSED_WITHOUT_HEADERS"
+    },
+    {
+      "ok": false,
+      "status": null,
+      "rstCode": 0,
+      "error": "CLOSED_WITHOUT_HEADERS"
+    }
+  ]
+}

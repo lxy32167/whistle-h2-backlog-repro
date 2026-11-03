@@ -1,0 +1,16 @@
+{
+  "name": "whistle-h2-backlog-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal local reproduction of Whistle HTTP/2 to HTTP/1.1 loopback connection failures",
+  "scripts": {
+    "repro": "node repro.cjs",
+    "control": "node repro.cjs --concurrency 6"
+  },
+  "engines": {
+    "node": ">=22.10.0"
+  },
+  "dependencies": {
+    "whistle": "2.10.13"
+  }
+}
